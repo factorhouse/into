@@ -127,7 +127,7 @@
 ;; This is the 'sizes' data, we use it to capture the state of a Kafka Cluster in a useable format.
 ;; It is exactly the same data as 'topics' translated into a SEQUENCE rather than a MAP.
 ;;
-;; Maps are fantastic for accessing data by a key, e.g. what is the value for broker #1, topic "br.ch")
+;; Maps are fantastic for accessing data by a key, e.g. what is the value for broker #1, topic "br.ch"
 ;;
 ;; Sequences are fantastic for re-shaping (for example sorting and partitioning), which is a valuable feature because
 ;; we use a javascript charting library that expects data in a different shape again (see categories-* below)
