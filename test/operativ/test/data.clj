@@ -132,11 +132,6 @@
 ;; Sequences are fantastic for re-shaping (for example sorting and partitioning), which is a valuable feature because
 ;; we use a javascript charting library that expects data in a different shape again (see categories-* below)
 ;;
-;; This is the extension technical challenge, implement the two remaining functions in the operativ.kafka.topic ns
-;; and get the remaining two tests passing.
-;;
-;; Good luck again. This one is a bit trickier so if you get totally stumped don't by shy, get in touch.
-;;
 (def sizes
   [{:topic "ad.ch" :partition 0 :size 4240523 :offset-lag 0 :future? false :broker 1 :dir "/kfk"}
    {:topic "ad.ch" :partition 1 :size 0 :offset-lag 0 :future? false :broker 1 :dir "/kfk"}
@@ -228,6 +223,11 @@
    {:topic "br.me" :partition 9 :size 42982455 :offset-lag 0 :future? false :broker 3 :dir "/kfk"}
    {:topic "br.me" :partition 10 :size 57538887 :offset-lag 0 :future? false :broker 3 :dir "/kfk"}
    {:topic "br.me" :partition 11 :size 0 :offset-lag 0 :future? false :broker 3 :dir "/kfk"}])
+
+;; This is the extension technical challenge, implement the two remaining functions in the operativ.kafka.topic ns
+;; and get the remaining two tests passing.
+;;
+;; Good luck again. This one is a bit trickier so if you get totally stumped don't by shy, get in touch.
 
 ;; This is the data that goes produces the first screenshot example in the README
 (def categories-physical
