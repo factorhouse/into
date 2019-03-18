@@ -1,6 +1,6 @@
 # Into TW.
 
-## Intro
+## Introduction
 
 Thanks for taking the time to have a conversation with us.
 
@@ -32,10 +32,16 @@ There is an extension technical challenge:
 
 2. Implement the remaining functions, causing all the tests to pass.
 
+Good luck!
+
 ## Reality
 
 The final form of the data in the extension test is used to generate tree graphs that look like the following:
 
+![Screenshot](resources/img/logical.png)
+![Screenshot](resources/img/physical.png)
+
+These are devcards, in case you're interested in that sort of thing. The backbone of our UI stack.
 
 ## Copyright / License
 
