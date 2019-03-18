@@ -4,10 +4,11 @@
 
   :min-lein-version "2.9.0"
 
+  :plugins [[lein-cljfmt "0.6.4"]
+            [lein-kibit "0.1.6"]]
+
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/tools.logging "0.4.1"]
                  [ch.qos.logback/logback-classic "1.2.3"]]
 
-  :aliases {"smoke" ["do" ["clean"] ["check"] ["kibit"] ["cljfmt" "check"] ["test"]]}
-
-  :pedantic? :warn)
+  :aliases {"smoke" ["do" ["clean"] ["check"] ["kibit"] ["cljfmt" "check"] ["test"]]})
