@@ -31,3 +31,8 @@ There are is one principal technical challenge:
 There is an extension technical challenge:
 
 2. Implement the remaining functions, causing all the tests to pass.
+
+## Reality
+
+The final form of the data in the extension test is used to generate tree graphs that look like the following:
+
