@@ -36,3 +36,9 @@ There is an extension technical challenge:
 
 The final form of the data in the extension test is used to generate tree graphs that look like the following:
 
+
+## Copyright / License
+
+Copyright © 2019 Troy-West Pty. Ltd.
+
+Distributed under the Eclipse Public License either version 2.0 or (at your option) any later version.
