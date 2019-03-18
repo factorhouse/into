@@ -8,7 +8,7 @@ It is based on real code that we have implemented more than once.
 
 There are three files:
 
-1. operativ.kafka.topic contains two functions that we would like you to implement
+1. (operativ.kafka.topic)[src/operativ/kafka/topic.clj] contains two functions that we would like you to implement
 2. opeartiv.kafka.topic-test contains three tests that currently fail
 3. operativ.test.data contains the test data and description of what it all means
 
