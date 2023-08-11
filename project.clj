@@ -1,14 +1,10 @@
-(defproject com.troy-west/into "0.1.0-SNAPSHOT"
+(defproject io.factorhouse/into "1.0.0"
 
   :description "A hurdle of the technical variety"
 
-  :min-lein-version "2.9.0"
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [org.clojure/tools.logging "1.2.4"]
+                 [ch.qos.logback/logback-classic "1.3.8"]
+                 [clj-kondo "2023.07.13"]]
 
-  :plugins [[lein-cljfmt "0.6.4"]
-            [lein-kibit "0.1.6"]]
-
-  :dependencies [[org.clojure/clojure "1.10.0"]
-                 [org.clojure/tools.logging "0.4.1"]
-                 [ch.qos.logback/logback-classic "1.2.3"]]
-
-  :aliases {"smoke" ["do" ["clean"] ["check"] ["kibit"] ["cljfmt" "check"] ["test"]]})
+  :aliases {"kondo" ["run" "-m" "clj-kondo.main" "--lint" "src:test" "--parallel"]})

@@ -1,7 +1,7 @@
-(ns operativ.kafka.topic-test
+(ns factorhouse.kafka.topic-test
   (:require [clojure.test :refer :all]
-            [operativ.kafka.topic :as topic]
-            [operativ.test.data :as data]))
+            [factorhouse.kafka.topic :as topic]
+            [factorhouse.test.data :as data]))
 
 ;; TODO: Technical Challenge! Make the test pass.
 (deftest sizes

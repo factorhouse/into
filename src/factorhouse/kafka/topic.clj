@@ -1,4 +1,4 @@
-(ns operativ.kafka.topic)
+(ns factorhouse.kafka.topic)
 
 ;; Technical Challenge! Implement this function.
 

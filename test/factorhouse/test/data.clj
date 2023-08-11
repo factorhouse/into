@@ -1,4 +1,4 @@
-(ns operativ.test.data)
+(ns factorhouse.test.data)
 
 ;; 'topics' holds raw data we collect from a Kafka Cluster
 ;;
@@ -24,8 +24,8 @@
 ;;
 ;; To achieve this goal we convert this raw data format into a more useable form ('sizes', below)
 ;;
-;; This is the primary technical challenge. Implement the operativ.kafka.topic/sizes function, converting this MAP
-;; into the following 'sizes' SEQUENCE and get the first test passing in operativ.kafka.topic-test.
+;; This is the primary technical challenge. Implement the factorhouse.kafka.topic/sizes function, converting this MAP
+;; into the following 'sizes' SEQUENCE and get the first test passing in factorhouse.kafka.topic-test.
 ;;
 ;; Good luck!
 ;;
@@ -224,7 +224,7 @@
    {:topic "br.me" :partition 10 :size 57538887 :offset-lag 0 :future? false :broker 3 :dir "/kfk"}
    {:topic "br.me" :partition 11 :size 0 :offset-lag 0 :future? false :broker 3 :dir "/kfk"}])
 
-;; This is the extension technical challenge, implement the two remaining functions in the operativ.kafka.topic ns
+;; This is the extension technical challenge, implement the two remaining functions in the factorhouse.kafka.topic ns
 ;; and get the remaining two tests passing.
 ;;
 ;; Good luck again. This one is a bit trickier so if you get totally stumped don't by shy, get in touch.
@@ -338,8 +338,6 @@
    {:id "2.3.11", :name 11, :size 0, :parent "2.3"}])
 
 ;; This is the data that produces the second screenshot example in the demo
-;; TODO: well not quite, really it's still on an older version, so update when possible (dtw 18.03.19)
-;; TODO: ^^ this TODO is not for you technical challenger, it's for us. Still, it's indicative of how we work.
 (def categories-logical
   [{:id "0", :name "ad.ch", :size 97005405}
    {:id "0.0", :name 0, :size 12721569, :parent "0"}
