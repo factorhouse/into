@@ -1,4 +1,4 @@
-# Into Factor House.
+# Into Factor House
 
 ## Introduction
 
