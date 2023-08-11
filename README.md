@@ -20,7 +20,7 @@ Use whatever IDE you like, at Factor House we use all of them. If you're new to 
 
 There are three files:
 
-1. [factorhouse.kafka.topic.clj](src/factorhouse/kafka/topic.clj) contains two functions that we would like you to implement
+1. [factorhouse.kafka.topic.clj](src/factorhouse/kafka/topic.clj) contains the functions that we would like you to implement
 2. [factorhouse.kafka.topic-test.clj](test/factorhouse/kafka/topic_test.clj)  contains three tests that currently fail
 3. [factorhouse.test.data.cljc](test/factorhouse/test/data.clj) contains the test data and description of what it all means
 
