@@ -36,12 +36,11 @@ Good luck!
 
 ## Reality
 
-The final form of the data in the extension test is used to generate tree graphs that look like the following:
+We use this technique to produce data that drives charts in our UI like:
 
-![Screenshot](resources/img/logical.png)
-![Screenshot](resources/img/physical.png)
+![Screenshot](resources/img/chart.png)
 
-These are devcards, in case you're interested in that sort of thing. The backbone of our UI stack.
+For more examples take a look at our [live demo site](https://demo.kpow.io).
 
 ## Copyright / License
 
