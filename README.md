@@ -14,8 +14,6 @@ There is no time-limit on this challenge, take as long or as little as you like.
 
 You will likely want to install Leiningen, once installed you can run 'lein test' in the root directory to run tests.
 
-Use whatever IDE you like, at Factor House we use all of them. If you're new to Clojure Intellij+Cursive might be easiest.
-
 There are three files:
 
 1. [factorhouse.kafka.topic.clj](src/factorhouse/kafka/topic.clj) contains the functions that we would like you to implement
