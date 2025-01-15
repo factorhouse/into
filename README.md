@@ -10,8 +10,6 @@ It is based on real code that we have implemented more than once.
 
 There is no time-limit on this challenge, take as long or as little as you like.
 
-Once you are ready, reply to the email you received and come to our offices for a chat about your solution.
-
 ## Details
 
 You will likely want to install Leiningen, once installed you can run 'lein test' in the root directory to run tests.
