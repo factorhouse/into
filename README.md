@@ -2,11 +2,7 @@
 
 ## Introduction
 
-Thanks for taking the time to have a conversation with us.
-
-This is a take-home technical test designed to be fun and allow you to show a little creativity.
-
-It is based on real code that we have implemented more than once.
+This is a take-home technical test designed to be fun and allow you to show a little creativity, it is based on real code that we have implemented more than once.
 
 There is no time-limit on this challenge, take as long or as little as you like.
 
@@ -20,7 +16,7 @@ There are three files:
 2. [factorhouse.kafka.topic-test.clj](test/factorhouse/kafka/topic_test.clj)  contains three tests that currently fail
 3. [factorhouse.test.data.cljc](test/factorhouse/test/data.clj) contains the test data and description of what it all means
 
-There are is one principal technical challenge:
+There is one principal technical challenge:
 
 1. Implement the factorhouse.kafka.topic/sizes function, causing the first test to pass.
 
@@ -40,6 +36,6 @@ For more examples take a look at our [live demo site](https://demo.kpow.io).
 
 ## Copyright / License
 
-Copyright © 2023 Factor House Pty. Ltd.
+Copyright © 2024 Factor House Pty. Ltd.
 
 Distributed under the Eclipse Public License either version 2.0 or (at your option) any later version.
