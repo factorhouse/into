@@ -8,7 +8,7 @@ This is a take-home technical test designed to be fun and allow you to show a li
 
 It is based on real code that we have implemented more than once.
 
-Feel free to contact us to ask questions, we're here to help (to a degree!). There is no time-limit on this challenge, take as long or as little as you like.
+There is no time-limit on this challenge, take as long or as little as you like.
 
 Once you are ready, reply to the email you received and come to our offices for a chat about your solution.
 
