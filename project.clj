@@ -2,9 +2,9 @@
 
   :description "A hurdle of the technical variety"
 
-  :dependencies [[org.clojure/clojure "1.12.0"]
-                 [org.clojure/tools.logging "1.3.0"]
-                 [ch.qos.logback/logback-classic "1.3.15"]
-                 [clj-kondo "2024.11.14"]]
+  :dependencies [[org.clojure/clojure "1.12.4"]
+                 [org.clojure/tools.logging "1.3.1"]
+                 [ch.qos.logback/logback-classic "1.5.32"]
+                 [clj-kondo "2026.01.19"]]
 
   :aliases {"kondo" ["run" "-m" "clj-kondo.main" "--lint" "src:test" "--parallel"]})
